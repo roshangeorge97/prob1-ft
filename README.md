@@ -28,19 +28,18 @@ Went with Random Forest since it did a better job predicting delays.
 
 Made a simple API using FastAPI. Here's how to use it:
 
-Just send a POST request to `/predict` with your delivery info. It'll tell you if it thinks there will be a delay.
+Send a `POST` request to `/predict` with your delivery information. The API will respond with a prediction indicating whether the delivery is expected to be delayed.
 
-Here's what your request should look like:
+### Example Request
 ```json
 {
-    "origin": "New York",
-    "destination": "Los Angeles",
+    "origin": "Jaipur",
+    "destination": "Mumbai",
     "vehicle_type": "Truck",
-    "distance": 4500,
+    "distance": 450,
     "weather": "Clear",
     "traffic": "Normal"
 }
-```
 
 ## Getting Started
 
