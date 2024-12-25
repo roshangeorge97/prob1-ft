@@ -40,6 +40,7 @@ Send a `POST` request to `/predict` with your delivery information. The API will
     "weather": "Clear",
     "traffic": "Normal"
 }
+```
 
 ## Getting Started
 
